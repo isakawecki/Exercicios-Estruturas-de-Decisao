@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="quadrado">
+    <h1>Sistema de pontuação de jogo</h1>
+    
+
+    <div class="inserir">
+        <label for="noum"></label>
+        <input type="number" placeholder="Digite a primeira nota" id="noum">
+        <label for="nodois"></label>
+        <input type="number" placeholder="Digite sua segunda nota" id="nodois">
+        <label for="notres"></label>
+        <input type="number" placeholder="Digite sua terceira" id="notres">
+
+        <button onclick="media()">Calcular média ponderada</button>
+    </div>
+
+    <div  id="resposta" style="display: none;"></div>
+</div>
+</body>
+
+<script src="js.js"></script>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Recomendação de filmes</h1>
+
+    <label><b>Selecione o gênero do filme:</b> </label>
+    <select id="genero">
+        <option value="acao">Ação</option>
+        <option value="comedia">Comédia</option>
+        <option value="drama">Drama</option>
+</select>
+       <p><b>Selecione o ano de lançamento:</b></p>
+
+     
+
+        <input type="checkbox" id="antes" >
+        <label>Antes de 2010</label>
+
+        <input type="checkbox" id="depois">
+        <label>Depois de 2010</label>
+
+
+        <p>Opcional:</p>
+
+        <label ><b>Selecione um ator(Opcional):</b> </label>
+        <select id="ator">
+            <option value="nada"></option>
+            <option value="tom">Tom Hanks</option>
+            <option value="bald">Dwayne Johnson</option>
+            <option value="arnorld">Arnold Schwarzenegger</option>
+            <option value="paulo">Paulo Gustavo</option>
+            <option value="inter">Matthew McConaughey</option>
+            <option value="bill">Bill Murray</option>
+    </select>
+    <button onclick="recomendar()">Recomendar</button>
+    </div>
+    <div id="resposta"></div>
+    </div> 
+</body>
+<script src = js.js></script>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Conversor de Unidades</h1>
+    
+    <label for="medida">Digite a medida:</label>
+    <input type="text" id="valor">
+    
+
+
+
+    <label for="inicio">Escolha a unidade inicial:</label>
+    <select id="inicio">
+        <option value="km">Kilômetros (km)</option>
+        <option value="m">Metros(m)</option>
+        <option value="pes">Pés(ft)</option>
+    </select>
+    
+    <label for="final">Escolha a unidade para conversão:</label>
+    <select id="final">
+        <option value="milhas">Milhas</option>
+        <option value="metros">Metros</option>
+        <option value="pes">Pés</option>
+    </select>
+    
+    <button onclick="converter()">Converter</button>
+    
+    <div id="resultado"></div>
+</body>
+<script src="js.js"></script>
+</html>

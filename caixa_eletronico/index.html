@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Caixa eletrônico</h1>
+   <div class="saldo">
+    <h2>SALDO ATUAL:</h2>
+    <p id="saldo">1000.00</p>
+   </div>
+
+   <div class="deposito">
+    <h2>Depositar</h2>
+    <input type="number" min="0" id="dep" >
+    <button onclick="depositar()"> Depositar valor</button>
+   </div>
+
+   <div class="sacar">
+    
+    <h2>Sacar</h2>
+    <input type="number" min="0" id="saq">
+    <button onclick="sacar()"> Sacar valor</button>
+   </div>
+</body>
+<script src="js.js"></script>
+</html>
